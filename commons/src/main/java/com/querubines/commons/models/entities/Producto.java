@@ -1,11 +1,15 @@
 package com.querubines.commons.models.entities;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.SequenceGenerator;
+import jakarta.persistence.Table;
 
+@Entity
+@Table(name = "PRODUCTO")
 public class Producto {
 	
 	@Id
@@ -21,7 +25,7 @@ public class Producto {
 	private String descripcion;
 	
 	@Column (name = "PRECIO", nullable = false, unique = true)
-	private Double email;
+	private Double precio;
 	
 	@Column (name = "STOCK", nullable = false, unique = true)
 	private int stock;
