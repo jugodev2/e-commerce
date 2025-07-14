@@ -352,3 +352,947 @@
 2025-07-14 09:29:36,018 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-07-14 09:29:36,024 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-07-14 09:29:36,028 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 09:51:27,767 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 09:51:27,783 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 09:51:27,787 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 09:51:32,556 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 09:51:32,572 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 09:51:32,577 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 09:53:33,260 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 09:53:33,272 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 09:53:33,277 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 09:54:08,154 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 09:54:08,161 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 09:54:08,166 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 09:55:18,786 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 09:55:18,803 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 09:55:18,807 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 09:57:34,128 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 09:57:34,137 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 09:57:34,141 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 10:38:06,642 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2025.0.0/spring-cloud-dependencies-2025.0.0.pom
+2025-07-14 10:38:06,651 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2025.0.0/spring-cloud-dependencies-2025.0.0.pom
+2025-07-14 10:38:06,696 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/4.3.0/spring-cloud-dependencies-parent-4.3.0.pom
+2025-07-14 10:38:06,705 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/4.3.0/spring-cloud-dependencies-parent-4.3.0.pom
+2025-07-14 10:38:06,754 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/4.3.0/spring-cloud-commons-dependencies-4.3.0.pom
+2025-07-14 10:38:06,760 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/4.3.0/spring-cloud-commons-dependencies-4.3.0.pom
+2025-07-14 10:38:06,811 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/4.3.0/spring-cloud-netflix-dependencies-4.3.0.pom
+2025-07-14 10:38:06,821 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/4.3.0/spring-cloud-netflix-dependencies-4.3.0.pom
+2025-07-14 10:38:06,866 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/4.3.0/spring-cloud-stream-dependencies-4.3.0.pom
+2025-07-14 10:38:06,873 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/4.3.0/spring-cloud-stream-dependencies-4.3.0.pom
+2025-07-14 10:38:06,924 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-task-dependencies/3.3.0/spring-cloud-task-dependencies-3.3.0.pom
+2025-07-14 10:38:06,933 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-task-dependencies/3.3.0/spring-cloud-task-dependencies-3.3.0.pom
+2025-07-14 10:38:06,984 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/3.3.0/spring-cloud-circuitbreaker-dependencies-3.3.0.pom
+2025-07-14 10:38:06,992 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/3.3.0/spring-cloud-circuitbreaker-dependencies-3.3.0.pom
+2025-07-14 10:38:07,062 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/4.3.0/spring-cloud-config-dependencies-4.3.0.pom
+2025-07-14 10:38:07,069 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/4.3.0/spring-cloud-config-dependencies-4.3.0.pom
+2025-07-14 10:38:07,121 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/4.3.0/spring-cloud-function-dependencies-4.3.0.pom
+2025-07-14 10:38:07,129 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/4.3.0/spring-cloud-function-dependencies-4.3.0.pom
+2025-07-14 10:38:07,186 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-dependencies/4.3.0/spring-cloud-gateway-dependencies-4.3.0.pom
+2025-07-14 10:38:07,192 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-dependencies/4.3.0/spring-cloud-gateway-dependencies-4.3.0.pom
+2025-07-14 10:38:07,239 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-dependencies/4.3.0/spring-cloud-consul-dependencies-4.3.0.pom
+2025-07-14 10:38:07,248 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-dependencies/4.3.0/spring-cloud-consul-dependencies-4.3.0.pom
+2025-07-14 10:38:07,295 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-vault-dependencies/4.3.0/spring-cloud-vault-dependencies-4.3.0.pom
+2025-07-14 10:38:07,304 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-vault-dependencies/4.3.0/spring-cloud-vault-dependencies-4.3.0.pom
+2025-07-14 10:38:07,350 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-zookeeper-dependencies/4.3.0/spring-cloud-zookeeper-dependencies-4.3.0.pom
+2025-07-14 10:38:07,359 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-zookeeper-dependencies/4.3.0/spring-cloud-zookeeper-dependencies-4.3.0.pom
+2025-07-14 10:38:07,405 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-bus-dependencies/4.3.0/spring-cloud-bus-dependencies-4.3.0.pom
+2025-07-14 10:38:07,412 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-bus-dependencies/4.3.0/spring-cloud-bus-dependencies-4.3.0.pom
+2025-07-14 10:38:07,459 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-contract-dependencies/4.3.0/spring-cloud-contract-dependencies-4.3.0.pom
+2025-07-14 10:38:07,468 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-contract-dependencies/4.3.0/spring-cloud-contract-dependencies-4.3.0.pom
+2025-07-14 10:38:07,514 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-dependencies/4.3.0/spring-cloud-openfeign-dependencies-4.3.0.pom
+2025-07-14 10:38:07,524 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-dependencies/4.3.0/spring-cloud-openfeign-dependencies-4.3.0.pom
+2025-07-14 10:38:07,575 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-bom/13.6/feign-bom-13.6.pom
+2025-07-14 10:38:07,585 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-bom/13.6/feign-bom-13.6.pom
+2025-07-14 10:38:07,633 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-kubernetes-dependencies/3.3.0/spring-cloud-kubernetes-dependencies-3.3.0.pom
+2025-07-14 10:38:07,643 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-kubernetes-dependencies/3.3.0/spring-cloud-kubernetes-dependencies-3.3.0.pom
+2025-07-14 10:38:07,699 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/7.3.1/kubernetes-client-bom-7.3.1.pom
+2025-07-14 10:38:07,707 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/7.3.1/kubernetes-client-bom-7.3.1.pom
+2025-07-14 10:38:08,409 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:38:08,475 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.3.0/spring-cloud-starter-netflix-eureka-server-4.3.0.pom
+2025-07-14 10:38:08,483 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.3.0/spring-cloud-starter-netflix-eureka-server-4.3.0.pom
+2025-07-14 10:38:08,530 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/4.3.0/spring-cloud-netflix-4.3.0.pom
+2025-07-14 10:38:08,539 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/4.3.0/spring-cloud-netflix-4.3.0.pom
+2025-07-14 10:38:08,586 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/4.3.0/spring-cloud-build-4.3.0.pom
+2025-07-14 10:38:08,626 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/4.3.0/spring-cloud-build-4.3.0.pom
+2025-07-14 10:38:08,674 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/4.3.0/spring-cloud-build-dependencies-4.3.0.pom
+2025-07-14 10:38:08,680 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/4.3.0/spring-cloud-build-dependencies-4.3.0.pom
+2025-07-14 10:38:08,728 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.5.0/spring-boot-dependencies-3.5.0.pom
+2025-07-14 10:38:08,766 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.5.0/spring-boot-dependencies-3.5.0.pom
+2025-07-14 10:38:08,842 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/3.5.0/zipkin-reporter-bom-3.5.0.pom
+2025-07-14 10:38:08,850 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/3.5.0/zipkin-reporter-bom-3.5.0.pom
+2025-07-14 10:38:08,901 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.26/groovy-bom-4.0.26.pom
+2025-07-14 10:38:08,919 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.26/groovy-bom-4.0.26.pom
+2025-07-14 10:38:08,964 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/15.2.1.Final/infinispan-bom-15.2.1.Final.pom
+2025-07-14 10:38:08,977 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/15.2.1.Final/infinispan-bom-15.2.1.Final.pom
+2025-07-14 10:38:09,278 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/15.2.1.Final/infinispan-build-configuration-parent-15.2.1.Final.pom
+2025-07-14 10:38:09,288 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/15.2.1.Final/infinispan-build-configuration-parent-15.2.1.Final.pom
+2025-07-14 10:38:09,351 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.21/jetty-ee10-bom-12.0.21.pom
+2025-07-14 10:38:09,361 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.21/jetty-ee10-bom-12.0.21.pom
+2025-07-14 10:38:09,406 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.0.21/jetty-bom-12.0.21.pom
+2025-07-14 10:38:09,416 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.0.21/jetty-bom-12.0.21.pom
+2025-07-14 10:38:09,484 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.15.0/micrometer-bom-1.15.0.pom
+2025-07-14 10:38:09,491 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.15.0/micrometer-bom-1.15.0.pom
+2025-07-14 10:38:09,538 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.5.0/micrometer-tracing-bom-1.5.0.pom
+2025-07-14 10:38:09,543 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.5.0/micrometer-tracing-bom-1.5.0.pom
+2025-07-14 10:38:09,590 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-bom/5.4.0/mongodb-driver-bom-5.4.0.pom
+2025-07-14 10:38:09,599 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-bom/5.4.0/mongodb-driver-bom-5.4.0.pom
+2025-07-14 10:38:09,639 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.121.Final/netty-bom-4.1.121.Final.pom
+2025-07-14 10:38:09,649 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.121.Final/netty-bom-4.1.121.Final.pom
+2025-07-14 10:38:09,704 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-bom/4.0.4/pulsar-bom-4.0.4.pom
+2025-07-14 10:38:09,717 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-bom/4.0.4/pulsar-bom-4.0.4.pom
+2025-07-14 10:38:09,776 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2024.0.6/reactor-bom-2024.0.6.pom
+2025-07-14 10:38:09,784 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2024.0.6/reactor-bom-2024.0.6.pom
+2025-07-14 10:38:09,829 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-bom/5.5.2/rest-assured-bom-5.5.2.pom
+2025-07-14 10:38:09,837 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-bom/5.5.2/rest-assured-bom-5.5.2.pom
+2025-07-14 10:38:09,891 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2025.0.0/spring-data-bom-2025.0.0.pom
+2025-07-14 10:38:09,898 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2025.0.0/spring-data-bom-2025.0.0.pom
+2025-07-14 10:38:09,951 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.7/spring-framework-bom-6.2.7.pom
+2025-07-14 10:38:09,957 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.7/spring-framework-bom-6.2.7.pom
+2025-07-14 10:38:10,001 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/1.2.6/spring-pulsar-bom-1.2.6.pom
+2025-07-14 10:38:10,006 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/1.2.6/spring-pulsar-bom-1.2.6.pom
+2025-07-14 10:38:10,052 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.5.0/spring-security-bom-6.5.0.pom
+2025-07-14 10:38:10,060 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.5.0/spring-security-bom-6.5.0.pom
+2025-07-14 10:38:10,107 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/3.5.0/spring-session-bom-3.5.0.pom
+2025-07-14 10:38:10,116 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/3.5.0/spring-session-bom-3.5.0.pom
+2025-07-14 10:38:10,167 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.21.0/testcontainers-bom-1.21.0.pom
+2025-07-14 10:38:10,175 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.21.0/testcontainers-bom-1.21.0.pom
+2025-07-14 10:38:10,231 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.3.0/spring-cloud-starter-4.3.0.pom
+2025-07-14 10:38:10,239 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.3.0/spring-cloud-starter-4.3.0.pom
+2025-07-14 10:38:10,293 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/4.3.0/spring-cloud-commons-parent-4.3.0.pom
+2025-07-14 10:38:10,301 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/4.3.0/spring-cloud-commons-parent-4.3.0.pom
+2025-07-14 10:38:10,480 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.3.0/spring-cloud-context-4.3.0.pom
+2025-07-14 10:38:10,507 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.3.0/spring-cloud-context-4.3.0.pom
+2025-07-14 10:38:10,554 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.1/spring-security-crypto-6.5.1.pom
+2025-07-14 10:38:10,675 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.1/spring-security-crypto-6.5.1.pom
+2025-07-14 10:38:10,719 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.3.0/spring-cloud-commons-4.3.0.pom
+2025-07-14 10:38:10,724 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.3.0/spring-cloud-commons-4.3.0.pom
+2025-07-14 10:38:10,771 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80/bcprov-jdk18on-1.80.pom
+2025-07-14 10:38:10,777 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80/bcprov-jdk18on-1.80.pom
+2025-07-14 10:38:10,822 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.3.0/spring-cloud-netflix-eureka-server-4.3.0.pom
+2025-07-14 10:38:10,827 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.3.0/spring-cloud-netflix-eureka-server-4.3.0.pom
+2025-07-14 10:38:10,876 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.3/spring-boot-starter-web-3.5.3.pom
+2025-07-14 10:38:10,883 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.3/spring-boot-starter-web-3.5.3.pom
+2025-07-14 10:38:10,932 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.3/spring-boot-starter-json-3.5.3.pom
+2025-07-14 10:38:10,939 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.3/spring-boot-starter-json-3.5.3.pom
+2025-07-14 10:38:10,987 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.1/jackson-databind-2.19.1.pom
+2025-07-14 10:38:10,995 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.1/jackson-databind-2.19.1.pom
+2025-07-14 10:38:11,043 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.1/jackson-base-2.19.1.pom
+2025-07-14 10:38:11,052 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.1/jackson-base-2.19.1.pom
+2025-07-14 10:38:11,114 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.1/jackson-annotations-2.19.1.pom
+2025-07-14 10:38:11,122 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.1/jackson-annotations-2.19.1.pom
+2025-07-14 10:38:11,171 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.1/jackson-core-2.19.1.pom
+2025-07-14 10:38:11,180 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.1/jackson-core-2.19.1.pom
+2025-07-14 10:38:11,228 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.1/jackson-datatype-jdk8-2.19.1.pom
+2025-07-14 10:38:11,236 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.1/jackson-datatype-jdk8-2.19.1.pom
+2025-07-14 10:38:11,282 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.19.1/jackson-modules-java8-2.19.1.pom
+2025-07-14 10:38:11,290 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.19.1/jackson-modules-java8-2.19.1.pom
+2025-07-14 10:38:11,342 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.1/jackson-datatype-jsr310-2.19.1.pom
+2025-07-14 10:38:11,350 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.1/jackson-datatype-jsr310-2.19.1.pom
+2025-07-14 10:38:11,397 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.1/jackson-module-parameter-names-2.19.1.pom
+2025-07-14 10:38:11,405 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.1/jackson-module-parameter-names-2.19.1.pom
+2025-07-14 10:38:11,452 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.3/spring-boot-starter-tomcat-3.5.3.pom
+2025-07-14 10:38:11,460 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.3/spring-boot-starter-tomcat-3.5.3.pom
+2025-07-14 10:38:11,521 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.3/spring-boot-starter-actuator-3.5.3.pom
+2025-07-14 10:38:11,529 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.3/spring-boot-starter-actuator-3.5.3.pom
+2025-07-14 10:38:11,575 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.3/spring-boot-actuator-autoconfigure-3.5.3.pom
+2025-07-14 10:38:11,584 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.3/spring-boot-actuator-autoconfigure-3.5.3.pom
+2025-07-14 10:38:11,632 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.3/spring-boot-actuator-3.5.3.pom
+2025-07-14 10:38:11,640 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.3/spring-boot-actuator-3.5.3.pom
+2025-07-14 10:38:11,687 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.1/micrometer-jakarta9-1.15.1.pom
+2025-07-14 10:38:11,695 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.1/micrometer-jakarta9-1.15.1.pom
+2025-07-14 10:38:11,739 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.1/micrometer-core-1.15.1.pom
+2025-07-14 10:38:11,747 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.1/micrometer-core-1.15.1.pom
+2025-07-14 10:38:11,803 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/3.5.3/spring-boot-starter-freemarker-3.5.3.pom
+2025-07-14 10:38:11,811 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/3.5.3/spring-boot-starter-freemarker-3.5.3.pom
+2025-07-14 10:38:11,880 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.3.0/spring-cloud-netflix-eureka-client-4.3.0.pom
+2025-07-14 10:38:11,889 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.3.0/spring-cloud-netflix-eureka-client-4.3.0.pom
+2025-07-14 10:38:12,040 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0/commons-codec-1.18.0.pom
+2025-07-14 10:38:12,048 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0/commons-codec-1.18.0.pom
+2025-07-14 10:38:12,092 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/79/commons-parent-79.pom
+2025-07-14 10:38:12,115 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/79/commons-parent-79.pom
+2025-07-14 10:38:12,237 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1.pom
+2025-07-14 10:38:12,246 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1.pom
+2025-07-14 10:38:12,288 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.13.1/gson-parent-2.13.1.pom
+2025-07-14 10:38:12,297 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.13.1/gson-parent-2.13.1.pom
+2025-07-14 10:38:12,341 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.38.0/error_prone_annotations-2.38.0.pom
+2025-07-14 10:38:12,347 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.38.0/error_prone_annotations-2.38.0.pom
+2025-07-14 10:38:12,406 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.38.0/error_prone_parent-2.38.0.pom
+2025-07-14 10:38:12,411 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.38.0/error_prone_parent-2.38.0.pom
+2025-07-14 10:38:12,467 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5/httpclient5-5.5.pom
+2025-07-14 10:38:12,472 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5/httpclient5-5.5.pom
+2025-07-14 10:38:12,513 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-parent/5.5/httpclient5-parent-5.5.pom
+2025-07-14 10:38:12,519 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-parent/5.5/httpclient5-parent-5.5.pom
+2025-07-14 10:38:12,560 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/14/httpcomponents-parent-14.pom
+2025-07-14 10:38:12,566 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/14/httpcomponents-parent-14.pom
+2025-07-14 10:38:12,819 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.19.1/jackson-dataformat-xml-2.19.1.pom
+2025-07-14 10:38:12,825 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.19.1/jackson-dataformat-xml-2.19.1.pom
+2025-07-14 10:38:12,872 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/woodstox-core-7.1.1.pom
+2025-07-14 10:38:12,879 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/woodstox-core-7.1.1.pom
+2025-07-14 10:38:12,923 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.3.0/spring-cloud-starter-loadbalancer-4.3.0.pom
+2025-07-14 10:38:12,929 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.3.0/spring-cloud-starter-loadbalancer-4.3.0.pom
+2025-07-14 10:38:12,973 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.3.0/spring-cloud-loadbalancer-4.3.0.pom
+2025-07-14 10:38:12,979 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.3.0/spring-cloud-loadbalancer-4.3.0.pom
+2025-07-14 10:38:13,034 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.3/spring-boot-starter-cache-3.5.3.pom
+2025-07-14 10:38:13,040 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.3/spring-boot-starter-cache-3.5.3.pom
+2025-07-14 10:38:13,672 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.3.0/spring-cloud-starter-netflix-eureka-server-4.3.0.jar
+2025-07-14 10:38:13,679 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.3.0/spring-cloud-starter-netflix-eureka-server-4.3.0.jar
+2025-07-14 10:38:13,718 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.3.0/spring-cloud-context-4.3.0.jar
+2025-07-14 10:38:13,766 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.3.0/spring-cloud-context-4.3.0.jar
+2025-07-14 10:38:13,795 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.3.0/spring-cloud-starter-4.3.0.jar
+2025-07-14 10:38:13,803 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.3.0/spring-cloud-starter-4.3.0.jar
+2025-07-14 10:38:13,810 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80/bcprov-jdk18on-1.80.jar
+2025-07-14 10:38:13,812 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.3.0/spring-cloud-netflix-eureka-server-4.3.0.jar
+2025-07-14 10:38:13,816 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.3.0/spring-cloud-commons-4.3.0.jar
+2025-07-14 10:38:13,816 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.1/spring-security-crypto-6.5.1.jar
+2025-07-14 10:38:13,836 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.3/spring-boot-starter-web-3.5.3.jar
+2025-07-14 10:38:13,845 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.3/spring-boot-starter-web-3.5.3.jar
+2025-07-14 10:38:13,867 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.3.0/spring-cloud-netflix-eureka-server-4.3.0.jar
+2025-07-14 10:38:13,879 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.1/spring-security-crypto-6.5.1.jar
+2025-07-14 10:38:13,886 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.3/spring-boot-starter-json-3.5.3.jar
+2025-07-14 10:38:13,892 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.3/spring-boot-starter-json-3.5.3.jar
+2025-07-14 10:38:13,903 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.1/jackson-datatype-jdk8-2.19.1.jar
+2025-07-14 10:38:13,913 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.1/jackson-datatype-jdk8-2.19.1.jar
+2025-07-14 10:38:13,918 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.1/jackson-datatype-jsr310-2.19.1.jar
+2025-07-14 10:38:13,928 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.1/jackson-module-parameter-names-2.19.1.jar
+2025-07-14 10:38:13,935 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.1/jackson-module-parameter-names-2.19.1.jar
+2025-07-14 10:38:13,937 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.3.0/spring-cloud-commons-4.3.0.jar
+2025-07-14 10:38:13,951 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.3/spring-boot-starter-tomcat-3.5.3.jar
+2025-07-14 10:38:13,957 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.3/spring-boot-starter-tomcat-3.5.3.jar
+2025-07-14 10:38:13,958 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.1/jackson-datatype-jsr310-2.19.1.jar
+2025-07-14 10:38:13,977 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.3/spring-boot-starter-actuator-3.5.3.jar
+2025-07-14 10:38:13,979 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.3/spring-boot-actuator-autoconfigure-3.5.3.jar
+2025-07-14 10:38:13,984 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.3/spring-boot-starter-actuator-3.5.3.jar
+2025-07-14 10:38:13,995 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.3/spring-boot-actuator-3.5.3.jar
+2025-07-14 10:38:13,996 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.1/micrometer-jakarta9-1.15.1.jar
+2025-07-14 10:38:14,007 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.1/micrometer-jakarta9-1.15.1.jar
+2025-07-14 10:38:14,040 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.1/micrometer-core-1.15.1.jar
+2025-07-14 10:38:14,068 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/3.5.3/spring-boot-starter-freemarker-3.5.3.jar
+2025-07-14 10:38:14,073 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/3.5.3/spring-boot-starter-freemarker-3.5.3.jar
+2025-07-14 10:38:14,144 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.3.0/spring-cloud-netflix-eureka-client-4.3.0.jar
+2025-07-14 10:38:14,163 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.3/spring-boot-actuator-3.5.3.jar
+2025-07-14 10:38:14,163 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.3.0/spring-cloud-netflix-eureka-client-4.3.0.jar
+2025-07-14 10:38:14,261 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5/httpclient5-5.5.jar
+2025-07-14 10:38:14,262 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1.jar
+2025-07-14 10:38:14,285 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1.jar
+2025-07-14 10:38:14,337 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0/commons-codec-1.18.0.jar
+2025-07-14 10:38:14,379 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.1/micrometer-core-1.15.1.jar
+2025-07-14 10:38:14,437 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0/commons-codec-1.18.0.jar
+2025-07-14 10:38:14,445 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.19.1/jackson-dataformat-xml-2.19.1.jar
+2025-07-14 10:38:14,481 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.1/jackson-core-2.19.1.jar
+2025-07-14 10:38:14,485 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5/httpclient5-5.5.jar
+2025-07-14 10:38:14,493 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.19.1/jackson-dataformat-xml-2.19.1.jar
+2025-07-14 10:38:14,500 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80/bcprov-jdk18on-1.80.jar
+2025-07-14 10:38:14,521 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.1/jackson-annotations-2.19.1.jar
+2025-07-14 10:38:14,534 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.1/jackson-annotations-2.19.1.jar
+2025-07-14 10:38:14,540 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.1/jackson-databind-2.19.1.jar
+2025-07-14 10:38:14,542 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/woodstox-core-7.1.1.jar
+2025-07-14 10:38:14,552 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.1/jackson-core-2.19.1.jar
+2025-07-14 10:38:14,599 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.3.0/spring-cloud-starter-loadbalancer-4.3.0.jar
+2025-07-14 10:38:14,604 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.3.0/spring-cloud-starter-loadbalancer-4.3.0.jar
+2025-07-14 10:38:14,611 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/woodstox-core-7.1.1.jar
+2025-07-14 10:38:14,615 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.3.0/spring-cloud-loadbalancer-4.3.0.jar
+2025-07-14 10:38:14,630 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.3.0/spring-cloud-loadbalancer-4.3.0.jar
+2025-07-14 10:38:14,658 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.3/spring-boot-starter-cache-3.5.3.jar
+2025-07-14 10:38:14,664 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.3/spring-boot-starter-cache-3.5.3.jar
+2025-07-14 10:38:14,686 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.3/spring-boot-actuator-autoconfigure-3.5.3.jar
+2025-07-14 10:38:14,846 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.1/jackson-databind-2.19.1.jar
+2025-07-14 10:38:15,511 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:commons:0.0.1-SNAPSHOT @ C:\E-COMMERCE\commons\pom.xml.
+2025-07-14 10:38:16,640 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-07-14 10:38:16,641 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:38:16,645 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:38:16,648 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-07-14 10:38:16,649 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-07-14 10:38:17,392 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2025-07-14 10:38:17,394 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-14 10:38:17,449 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.3.0/spring-cloud-starter-netflix-eureka-server-4.3.0-sources.jar
+2025-07-14 10:38:17,454 [Worker-19: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:38:19,348 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:38:19,469 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.3.0/spring-cloud-starter-4.3.0-sources.jar
+2025-07-14 10:38:19,474 [Worker-19: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:38:19,633 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.3.0/spring-cloud-context-4.3.0-sources.jar
+2025-07-14 10:38:19,682 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.3.0/spring-cloud-context-4.3.0-sources.jar
+2025-07-14 10:38:19,689 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-context:4.3.0
+2025-07-14 10:38:19,808 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.1/spring-security-crypto-6.5.1-sources.jar
+2025-07-14 10:38:19,878 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.1/spring-security-crypto-6.5.1-sources.jar
+2025-07-14 10:38:19,884 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-crypto:6.5.1
+2025-07-14 10:38:20,023 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.3.0/spring-cloud-commons-4.3.0-sources.jar
+2025-07-14 10:38:20,109 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.3.0/spring-cloud-commons-4.3.0-sources.jar
+2025-07-14 10:38:20,114 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-commons:4.3.0
+2025-07-14 10:38:20,224 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80/bcprov-jdk18on-1.80-sources.jar
+2025-07-14 10:38:20,763 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80/bcprov-jdk18on-1.80-sources.jar
+2025-07-14 10:38:20,768 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.bouncycastle:bcprov-jdk18on:1.80
+2025-07-14 10:38:20,892 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.3.0/spring-cloud-netflix-eureka-server-4.3.0-sources.jar
+2025-07-14 10:38:21,150 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.3.0/spring-cloud-netflix-eureka-server-4.3.0-sources.jar
+2025-07-14 10:38:21,156 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-server:4.3.0
+2025-07-14 10:38:21,277 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-07-14 10:38:21,278 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:38:21,278 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:38:21,279 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-07-14 10:38:21,280 [Worker-30: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-07-14 10:38:21,321 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.3/spring-boot-starter-web-3.5.3-sources.jar
+2025-07-14 10:38:21,326 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.3/spring-boot-starter-web-3.5.3-sources.jar
+2025-07-14 10:38:21,331 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web:3.5.3
+2025-07-14 10:38:21,483 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.3/spring-boot-starter-json-3.5.3-sources.jar
+2025-07-14 10:38:21,488 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.3/spring-boot-starter-json-3.5.3-sources.jar
+2025-07-14 10:38:21,493 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:3.5.3
+2025-07-14 10:38:21,645 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.1/jackson-datatype-jdk8-2.19.1-sources.jar
+2025-07-14 10:38:21,650 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.1/jackson-datatype-jdk8-2.19.1-sources.jar
+2025-07-14 10:38:21,655 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.1
+2025-07-14 10:38:21,769 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.1/jackson-datatype-jsr310-2.19.1-sources.jar
+2025-07-14 10:38:21,814 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.1/jackson-datatype-jsr310-2.19.1-sources.jar
+2025-07-14 10:38:21,820 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.1
+2025-07-14 10:38:21,936 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.1/jackson-module-parameter-names-2.19.1-sources.jar
+2025-07-14 10:38:21,941 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.1/jackson-module-parameter-names-2.19.1-sources.jar
+2025-07-14 10:38:21,946 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.1
+2025-07-14 10:38:22,066 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.3/spring-boot-starter-tomcat-3.5.3-sources.jar
+2025-07-14 10:38:22,072 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.3/spring-boot-starter-tomcat-3.5.3-sources.jar
+2025-07-14 10:38:22,078 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:3.5.3
+2025-07-14 10:38:22,238 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.3/spring-boot-starter-actuator-3.5.3-sources.jar
+2025-07-14 10:38:22,243 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.3/spring-boot-starter-actuator-3.5.3-sources.jar
+2025-07-14 10:38:22,249 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-actuator:3.5.3
+2025-07-14 10:38:22,316 [Worker-30: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 0.00 sec 
+2025-07-14 10:38:22,386 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.3/spring-boot-actuator-autoconfigure-3.5.3-sources.jar
+2025-07-14 10:38:22,559 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.3/spring-boot-actuator-autoconfigure-3.5.3-sources.jar
+2025-07-14 10:38:22,565 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.3
+2025-07-14 10:38:22,687 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.3/spring-boot-actuator-3.5.3-sources.jar
+2025-07-14 10:38:22,839 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.3/spring-boot-actuator-3.5.3-sources.jar
+2025-07-14 10:38:22,843 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator:3.5.3
+2025-07-14 10:38:23,011 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.1/micrometer-jakarta9-1.15.1-sources.jar
+2025-07-14 10:38:23,024 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.1/micrometer-jakarta9-1.15.1-sources.jar
+2025-07-14 10:38:23,029 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-jakarta9:1.15.1
+2025-07-14 10:38:23,159 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.1/micrometer-core-1.15.1-sources.jar
+2025-07-14 10:38:23,329 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.1/micrometer-core-1.15.1-sources.jar
+2025-07-14 10:38:23,333 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-core:1.15.1
+2025-07-14 10:38:23,476 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/3.5.3/spring-boot-starter-freemarker-3.5.3-sources.jar
+2025-07-14 10:38:23,481 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/3.5.3/spring-boot-starter-freemarker-3.5.3-sources.jar
+2025-07-14 10:38:23,486 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-freemarker:3.5.3
+2025-07-14 10:38:23,624 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.3.0/spring-cloud-netflix-eureka-client-4.3.0-sources.jar
+2025-07-14 10:38:23,711 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.3.0/spring-cloud-netflix-eureka-client-4.3.0-sources.jar
+2025-07-14 10:38:23,716 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-client:4.3.0
+2025-07-14 10:38:23,844 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1-sources.jar
+2025-07-14 10:38:23,942 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1-sources.jar
+2025-07-14 10:38:23,948 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.13.1
+2025-07-14 10:38:24,090 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5/httpclient5-5.5-sources.jar
+2025-07-14 10:38:24,385 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5/httpclient5-5.5-sources.jar
+2025-07-14 10:38:24,390 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents.client5:httpclient5:5.5
+2025-07-14 10:38:24,501 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0/commons-codec-1.18.0-sources.jar
+2025-07-14 10:38:24,628 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0/commons-codec-1.18.0-sources.jar
+2025-07-14 10:38:24,632 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.18.0
+2025-07-14 10:38:24,753 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.19.1/jackson-dataformat-xml-2.19.1-sources.jar
+2025-07-14 10:38:24,811 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.19.1/jackson-dataformat-xml-2.19.1-sources.jar
+2025-07-14 10:38:24,817 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.19.1
+2025-07-14 10:38:24,949 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.1/jackson-core-2.19.1-sources.jar
+2025-07-14 10:38:25,098 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.1/jackson-core-2.19.1-sources.jar
+2025-07-14 10:38:25,105 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.19.1
+2025-07-14 10:38:25,118 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-14 10:38:25,232 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.1/jackson-annotations-2.19.1-sources.jar
+2025-07-14 10:38:25,284 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.1/jackson-annotations-2.19.1-sources.jar
+2025-07-14 10:38:25,289 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.19.1
+2025-07-14 10:38:27,550 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:38:27,578 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.1/jackson-databind-2.19.1-sources.jar
+2025-07-14 10:38:27,886 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.1/jackson-databind-2.19.1-sources.jar
+2025-07-14 10:38:27,893 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.19.1
+2025-07-14 10:38:28,121 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/woodstox-core-7.1.1-sources.jar
+2025-07-14 10:38:28,469 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/woodstox-core-7.1.1-sources.jar
+2025-07-14 10:38:28,474 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.woodstox:woodstox-core:7.1.1
+2025-07-14 10:38:28,926 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.3.0/spring-cloud-starter-loadbalancer-4.3.0-sources.jar
+2025-07-14 10:38:28,930 [Worker-19: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:38:29,143 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.3.0/spring-cloud-loadbalancer-4.3.0-sources.jar
+2025-07-14 10:38:29,211 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.3.0/spring-cloud-loadbalancer-4.3.0-sources.jar
+2025-07-14 10:38:29,216 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-loadbalancer:4.3.0
+2025-07-14 10:38:29,442 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.3/spring-boot-starter-cache-3.5.3-sources.jar
+2025-07-14 10:38:29,447 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/3.5.3/spring-boot-starter-cache-3.5.3-sources.jar
+2025-07-14 10:38:29,451 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-cache:3.5.3
+2025-07-14 10:38:30,305 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-07-14 10:38:30,306 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:38:30,307 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:38:30,307 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-07-14 10:38:30,350 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-07-14 10:38:31,437 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 1.00 sec 
+2025-07-14 10:38:32,742 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 10:38:32,768 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:38:32,772 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:38:49,784 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 10:38:49,795 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:38:49,800 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:39:59,599 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:commons:0.0.1-SNAPSHOT @ C:\E-COMMERCE\commons\pom.xml.
+2025-07-14 10:40:00,716 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:00,718 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:00,724 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 10:40:00,806 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-14 10:40:01,311 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:commons:0.0.1-SNAPSHOT @ C:\E-COMMERCE\commons\pom.xml.
+2025-07-14 10:40:02,112 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons/src/main/java
+2025-07-14 10:40:02,113 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/main/resources
+2025-07-14 10:40:02,114 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/main/resources
+2025-07-14 10:40:02,115 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons/src/test/java
+2025-07-14 10:40:02,116 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/test/resources
+2025-07-14 10:40:02,596 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-07-14 10:40:02,605 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-14 10:40:03,139 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:commons:0.0.1-SNAPSHOT @ C:\E-COMMERCE\commons\pom.xml.
+2025-07-14 10:40:04,284 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons/src/main/java
+2025-07-14 10:40:04,285 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/main/resources
+2025-07-14 10:40:04,288 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/main/resources
+2025-07-14 10:40:04,289 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons/src/test/java
+2025-07-14 10:40:04,291 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/test/resources
+2025-07-14 10:40:04,697 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-07-14 10:40:05,171 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 10:40:05,189 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:05,195 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 10:40:16,659 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:40:18,334 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:18,336 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:18,341 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:40:18,947 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.3.0/spring-cloud-starter-netflix-eureka-server-4.3.0-javadoc.jar
+2025-07-14 10:40:18,950 [Worker-32: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:40:19,066 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.3.0/spring-cloud-starter-4.3.0-javadoc.jar
+2025-07-14 10:40:19,070 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.3.0/spring-cloud-starter-4.3.0-javadoc.jar
+2025-07-14 10:40:19,076 [Worker-32: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter:4.3.0
+2025-07-14 10:40:19,255 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.3.0/spring-cloud-starter-loadbalancer-4.3.0-javadoc.jar
+2025-07-14 10:40:19,259 [Worker-32: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:40:19,438 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-14 10:40:20,112 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:40:21,812 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-07-14 10:40:21,813 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:40:21,815 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:40:21,816 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-07-14 10:40:21,817 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-07-14 10:40:22,989 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 1.00 sec 
+2025-07-14 10:40:23,977 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 10:40:23,998 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:24,004 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:40:43,358 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:40:45,061 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:45,063 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:45,068 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:40:51,823 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:commons:0.0.1-SNAPSHOT @ C:\E-COMMERCE\commons\pom.xml.
+2025-07-14 10:40:52,591 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:52,593 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:40:52,597 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 10:42:45,441 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:42:46,976 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:42:46,979 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:42:46,984 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:42:48,548 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 10:42:48,576 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:42:48,579 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:44:32,201 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2024.0.2/spring-cloud-dependencies-2024.0.2.pom
+2025-07-14 10:44:32,210 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2024.0.2/spring-cloud-dependencies-2024.0.2.pom
+2025-07-14 10:44:32,253 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/4.2.2/spring-cloud-dependencies-parent-4.2.2.pom
+2025-07-14 10:44:32,265 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/4.2.2/spring-cloud-dependencies-parent-4.2.2.pom
+2025-07-14 10:44:32,311 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/4.2.2/spring-cloud-commons-dependencies-4.2.2.pom
+2025-07-14 10:44:32,320 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/4.2.2/spring-cloud-commons-dependencies-4.2.2.pom
+2025-07-14 10:44:32,371 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/4.2.2/spring-cloud-netflix-dependencies-4.2.2.pom
+2025-07-14 10:44:32,381 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/4.2.2/spring-cloud-netflix-dependencies-4.2.2.pom
+2025-07-14 10:44:32,426 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/4.2.2/spring-cloud-stream-dependencies-4.2.2.pom
+2025-07-14 10:44:32,434 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/4.2.2/spring-cloud-stream-dependencies-4.2.2.pom
+2025-07-14 10:44:32,478 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-task-dependencies/3.2.2/spring-cloud-task-dependencies-3.2.2.pom
+2025-07-14 10:44:32,486 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-task-dependencies/3.2.2/spring-cloud-task-dependencies-3.2.2.pom
+2025-07-14 10:44:32,532 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/3.2.2/spring-cloud-circuitbreaker-dependencies-3.2.2.pom
+2025-07-14 10:44:32,539 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/3.2.2/spring-cloud-circuitbreaker-dependencies-3.2.2.pom
+2025-07-14 10:44:32,586 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/4.2.3/spring-cloud-config-dependencies-4.2.3.pom
+2025-07-14 10:44:32,596 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/4.2.3/spring-cloud-config-dependencies-4.2.3.pom
+2025-07-14 10:44:32,643 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/4.2.3/spring-cloud-function-dependencies-4.2.3.pom
+2025-07-14 10:44:32,652 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/4.2.3/spring-cloud-function-dependencies-4.2.3.pom
+2025-07-14 10:44:32,699 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-dependencies/4.2.4/spring-cloud-gateway-dependencies-4.2.4.pom
+2025-07-14 10:44:32,708 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-dependencies/4.2.4/spring-cloud-gateway-dependencies-4.2.4.pom
+2025-07-14 10:44:32,755 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-dependencies/4.2.2/spring-cloud-consul-dependencies-4.2.2.pom
+2025-07-14 10:44:32,764 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-dependencies/4.2.2/spring-cloud-consul-dependencies-4.2.2.pom
+2025-07-14 10:44:32,811 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-vault-dependencies/4.2.2/spring-cloud-vault-dependencies-4.2.2.pom
+2025-07-14 10:44:32,820 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-vault-dependencies/4.2.2/spring-cloud-vault-dependencies-4.2.2.pom
+2025-07-14 10:44:32,867 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-zookeeper-dependencies/4.2.2/spring-cloud-zookeeper-dependencies-4.2.2.pom
+2025-07-14 10:44:32,879 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-zookeeper-dependencies/4.2.2/spring-cloud-zookeeper-dependencies-4.2.2.pom
+2025-07-14 10:44:32,931 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-contract-dependencies/4.2.2/spring-cloud-contract-dependencies-4.2.2.pom
+2025-07-14 10:44:32,945 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-contract-dependencies/4.2.2/spring-cloud-contract-dependencies-4.2.2.pom
+2025-07-14 10:44:32,993 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-dependencies/4.2.2/spring-cloud-openfeign-dependencies-4.2.2.pom
+2025-07-14 10:44:33,001 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-dependencies/4.2.2/spring-cloud-openfeign-dependencies-4.2.2.pom
+2025-07-14 10:44:33,056 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-kubernetes-dependencies/3.2.2/spring-cloud-kubernetes-dependencies-3.2.2.pom
+2025-07-14 10:44:33,068 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-kubernetes-dependencies/3.2.2/spring-cloud-kubernetes-dependencies-3.2.2.pom
+2025-07-14 10:44:33,724 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:44:33,767 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.2.2/spring-cloud-starter-netflix-eureka-server-4.2.2.pom
+2025-07-14 10:44:33,772 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.2.2/spring-cloud-starter-netflix-eureka-server-4.2.2.pom
+2025-07-14 10:44:33,817 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/4.2.2/spring-cloud-netflix-4.2.2.pom
+2025-07-14 10:44:33,824 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/4.2.2/spring-cloud-netflix-4.2.2.pom
+2025-07-14 10:44:33,870 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/4.2.2/spring-cloud-build-4.2.2.pom
+2025-07-14 10:44:33,909 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/4.2.2/spring-cloud-build-4.2.2.pom
+2025-07-14 10:44:33,959 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/4.2.2/spring-cloud-build-dependencies-4.2.2.pom
+2025-07-14 10:44:33,966 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/4.2.2/spring-cloud-build-dependencies-4.2.2.pom
+2025-07-14 10:44:34,167 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.2.2/spring-cloud-starter-4.2.2.pom
+2025-07-14 10:44:34,174 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.2.2/spring-cloud-starter-4.2.2.pom
+2025-07-14 10:44:34,219 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/4.2.2/spring-cloud-commons-parent-4.2.2.pom
+2025-07-14 10:44:34,227 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/4.2.2/spring-cloud-commons-parent-4.2.2.pom
+2025-07-14 10:44:34,387 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.2.2/spring-cloud-context-4.2.2.pom
+2025-07-14 10:44:34,395 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.2.2/spring-cloud-context-4.2.2.pom
+2025-07-14 10:44:34,445 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.2.2/spring-cloud-commons-4.2.2.pom
+2025-07-14 10:44:34,452 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.2.2/spring-cloud-commons-4.2.2.pom
+2025-07-14 10:44:34,503 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.2.2/spring-cloud-netflix-eureka-server-4.2.2.pom
+2025-07-14 10:44:34,511 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.2.2/spring-cloud-netflix-eureka-server-4.2.2.pom
+2025-07-14 10:44:34,666 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.2.2/spring-cloud-netflix-eureka-client-4.2.2.pom
+2025-07-14 10:44:34,674 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.2.2/spring-cloud-netflix-eureka-client-4.2.2.pom
+2025-07-14 10:44:34,720 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/2.0.5/eureka-client-2.0.5.pom
+2025-07-14 10:44:34,728 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/2.0.5/eureka-client-2.0.5.pom
+2025-07-14 10:44:34,771 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21.pom
+2025-07-14 10:44:34,782 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21.pom
+2025-07-14 10:44:34,831 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.21/xstream-parent-1.4.21.pom
+2025-07-14 10:44:34,847 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.21/xstream-parent-1.4.21.pom
+2025-07-14 10:44:35,113 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client-jersey3/2.0.5/eureka-client-jersey3-2.0.5.pom
+2025-07-14 10:44:35,119 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client-jersey3/2.0.5/eureka-client-jersey3-2.0.5.pom
+2025-07-14 10:44:35,206 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core-jersey3/2.0.5/eureka-core-jersey3-2.0.5.pom
+2025-07-14 10:44:35,212 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core-jersey3/2.0.5/eureka-core-jersey3-2.0.5.pom
+2025-07-14 10:44:35,256 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/2.0.5/eureka-core-2.0.5.pom
+2025-07-14 10:44:35,265 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/2.0.5/eureka-core-2.0.5.pom
+2025-07-14 10:44:35,406 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.2.2/spring-cloud-starter-loadbalancer-4.2.2.pom
+2025-07-14 10:44:35,413 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.2.2/spring-cloud-starter-loadbalancer-4.2.2.pom
+2025-07-14 10:44:35,459 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.2.2/spring-cloud-loadbalancer-4.2.2.pom
+2025-07-14 10:44:35,466 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.2.2/spring-cloud-loadbalancer-4.2.2.pom
+2025-07-14 10:44:36,170 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.2.2/spring-cloud-starter-netflix-eureka-server-4.2.2.jar
+2025-07-14 10:44:36,177 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.2.2/spring-cloud-starter-netflix-eureka-server-4.2.2.jar
+2025-07-14 10:44:36,215 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.2.2/spring-cloud-starter-4.2.2.jar
+2025-07-14 10:44:36,229 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.2.2/spring-cloud-starter-4.2.2.jar
+2025-07-14 10:44:36,264 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/2.0.5/eureka-client-2.0.5.jar
+2025-07-14 10:44:36,292 [BasicRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.2.2/spring-cloud-context-4.2.2.jar
+2025-07-14 10:44:36,292 [BasicRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.2.2/spring-cloud-netflix-eureka-client-4.2.2.jar
+2025-07-14 10:44:36,300 [BasicRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.2.2/spring-cloud-commons-4.2.2.jar
+2025-07-14 10:44:36,300 [BasicRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.2.2/spring-cloud-netflix-eureka-server-4.2.2.jar
+2025-07-14 10:44:36,352 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/2.0.5/eureka-client-2.0.5.jar
+2025-07-14 10:44:36,365 [BasicRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.2.2/spring-cloud-netflix-eureka-client-4.2.2.jar
+2025-07-14 10:44:36,383 [BasicRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.2.2/spring-cloud-context-4.2.2.jar
+2025-07-14 10:44:36,391 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21.jar
+2025-07-14 10:44:36,399 [BasicRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client-jersey3/2.0.5/eureka-client-jersey3-2.0.5.jar
+2025-07-14 10:44:36,410 [BasicRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client-jersey3/2.0.5/eureka-client-jersey3-2.0.5.jar
+2025-07-14 10:44:36,416 [BasicRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.2.2/spring-cloud-commons-4.2.2.jar
+2025-07-14 10:44:36,424 [BasicRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core-jersey3/2.0.5/eureka-core-jersey3-2.0.5.jar
+2025-07-14 10:44:36,433 [BasicRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core-jersey3/2.0.5/eureka-core-jersey3-2.0.5.jar
+2025-07-14 10:44:36,435 [BasicRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.2.2/spring-cloud-netflix-eureka-server-4.2.2.jar
+2025-07-14 10:44:36,445 [BasicRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/2.0.5/eureka-core-2.0.5.jar
+2025-07-14 10:44:36,445 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21.jar
+2025-07-14 10:44:36,457 [BasicRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.2.2/spring-cloud-starter-loadbalancer-4.2.2.jar
+2025-07-14 10:44:36,467 [BasicRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.2.2/spring-cloud-starter-loadbalancer-4.2.2.jar
+2025-07-14 10:44:36,471 [BasicRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.2.2/spring-cloud-loadbalancer-4.2.2.jar
+2025-07-14 10:44:36,474 [BasicRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/2.0.5/eureka-core-2.0.5.jar
+2025-07-14 10:44:36,488 [BasicRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.2.2/spring-cloud-loadbalancer-4.2.2.jar
+2025-07-14 10:44:37,242 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-07-14 10:44:37,243 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:44:37,249 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:44:37,255 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-07-14 10:44:37,256 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-07-14 10:44:37,832 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.2.2/spring-cloud-starter-netflix-eureka-server-4.2.2-sources.jar
+2025-07-14 10:44:37,835 [Worker-39: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.2.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:44:38,005 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.2.2/spring-cloud-starter-4.2.2-sources.jar
+2025-07-14 10:44:38,010 [Worker-39: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter:4.2.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:44:38,025 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2025-07-14 10:44:38,027 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-14 10:44:38,169 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.2.2/spring-cloud-context-4.2.2-sources.jar
+2025-07-14 10:44:38,227 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/4.2.2/spring-cloud-context-4.2.2-sources.jar
+2025-07-14 10:44:38,232 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-context:4.2.2
+2025-07-14 10:44:39,693 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:44:39,757 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.2.2/spring-cloud-commons-4.2.2-sources.jar
+2025-07-14 10:44:39,839 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/4.2.2/spring-cloud-commons-4.2.2-sources.jar
+2025-07-14 10:44:39,844 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-commons:4.2.2
+2025-07-14 10:44:39,954 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.2.2/spring-cloud-netflix-eureka-server-4.2.2-sources.jar
+2025-07-14 10:44:40,090 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/4.2.2/spring-cloud-netflix-eureka-server-4.2.2-sources.jar
+2025-07-14 10:44:40,095 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-server:4.2.2
+2025-07-14 10:44:40,211 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.2.2/spring-cloud-netflix-eureka-client-4.2.2-sources.jar
+2025-07-14 10:44:40,269 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.2.2/spring-cloud-netflix-eureka-client-4.2.2-sources.jar
+2025-07-14 10:44:40,274 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-client:4.2.2
+2025-07-14 10:44:40,389 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/2.0.5/eureka-client-2.0.5-sources.jar
+2025-07-14 10:44:40,504 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client/2.0.5/eureka-client-2.0.5-sources.jar
+2025-07-14 10:44:40,509 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.eureka:eureka-client:2.0.5
+2025-07-14 10:44:40,652 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21-sources.jar
+2025-07-14 10:44:40,791 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.21/xstream-1.4.21-sources.jar
+2025-07-14 10:44:40,796 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.thoughtworks.xstream:xstream:1.4.21
+2025-07-14 10:44:40,927 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client-jersey3/2.0.5/eureka-client-jersey3-2.0.5-sources.jar
+2025-07-14 10:44:40,933 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-client-jersey3/2.0.5/eureka-client-jersey3-2.0.5-sources.jar
+2025-07-14 10:44:40,937 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.eureka:eureka-client-jersey3:2.0.5
+2025-07-14 10:44:41,044 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-07-14 10:44:41,045 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:44:41,046 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-07-14 10:44:41,046 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-07-14 10:44:41,047 [Worker-40: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-07-14 10:44:41,064 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core-jersey3/2.0.5/eureka-core-jersey3-2.0.5-sources.jar
+2025-07-14 10:44:41,069 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core-jersey3/2.0.5/eureka-core-jersey3-2.0.5-sources.jar
+2025-07-14 10:44:41,074 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.eureka:eureka-core-jersey3:2.0.5
+2025-07-14 10:44:41,221 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/2.0.5/eureka-core-2.0.5-sources.jar
+2025-07-14 10:44:41,301 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/eureka/eureka-core/2.0.5/eureka-core-2.0.5-sources.jar
+2025-07-14 10:44:41,305 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.eureka:eureka-core:2.0.5
+2025-07-14 10:44:41,485 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.2.2/spring-cloud-starter-loadbalancer-4.2.2-sources.jar
+2025-07-14 10:44:41,488 [Worker-39: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.2.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:44:41,601 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.2.2/spring-cloud-loadbalancer-4.2.2-sources.jar
+2025-07-14 10:44:41,714 [Worker-39: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/4.2.2/spring-cloud-loadbalancer-4.2.2-sources.jar
+2025-07-14 10:44:41,720 [Worker-39: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-loadbalancer:4.2.2
+2025-07-14 10:44:41,779 [Worker-40: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-07-14 10:44:43,234 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 10:44:43,251 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:44:43,257 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:45:08,451 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:eureka-server:0.0.1-SNAPSHOT @ C:\E-COMMERCE\eureka-server\pom.xml.
+2025-07-14 10:45:10,122 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:45:10,122 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:45:10,126 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 10:45:10,811 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/4.2.2/spring-cloud-starter-netflix-eureka-server-4.2.2-javadoc.jar
+2025-07-14 10:45:10,816 [Worker-38: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.2.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:45:10,939 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.2.2/spring-cloud-starter-4.2.2-javadoc.jar
+2025-07-14 10:45:10,946 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.2.2/spring-cloud-starter-4.2.2-javadoc.jar
+2025-07-14 10:45:10,954 [Worker-38: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter:4.2.2
+2025-07-14 10:45:11,140 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.2.2/spring-cloud-starter-loadbalancer-4.2.2-javadoc.jar
+2025-07-14 10:45:11,145 [Worker-38: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.2.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-07-14 10:45:52,459 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 10:45:52,482 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 10:45:52,486 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\eureka-server\src\test\resources
+2025-07-14 12:42:16,975 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:42:17,024 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:42:17,028 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:48:37,741 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:48:37,763 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:48:37,766 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:48:44,175 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:48:44,182 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:48:44,187 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:49:03,734 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:49:03,742 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:49:03,745 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:49:15,765 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:49:15,772 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:49:15,777 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:50:53,375 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:50:53,384 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:50:53,387 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:51:08,709 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:51:08,716 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:51:08,720 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:51:26,010 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:51:26,016 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:51:26,019 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:51:40,039 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:51:40,047 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:51:40,050 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:51:49,264 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:51:49,270 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:51:49,273 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:52:00,258 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:52:00,267 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:52:00,271 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:52:10,585 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:52:10,593 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:52:10,596 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:52:20,349 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:52:20,358 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:52:20,364 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:52:53,206 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:52:53,215 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:52:53,218 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:53:08,638 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:53:08,650 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:53:08,655 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:53:35,813 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:53:35,821 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:53:35,825 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:53:42,907 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:53:42,916 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:53:42,921 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:53:52,776 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:53:52,782 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:53:52,785 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:55:57,819 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:55:57,827 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:55:57,831 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:56:07,458 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:56:07,465 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:56:07,469 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:56:16,510 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:56:16,518 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:56:16,521 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:57:43,517 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:57:43,531 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:57:43,538 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:57:53,297 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:57:53,305 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:57:53,310 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:59:53,575 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.querubines:commons:0.0.1-SNAPSHOT @ C:\E-COMMERCE\commons\pom.xml.
+2025-07-14 12:59:54,746 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:59:54,747 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:59:54,754 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 12:59:56,123 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 12:59:56,140 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 12:59:56,143 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:00:48,829 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:00:48,836 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:00:48,839 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:01:14,094 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:01:14,100 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:01:14,104 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:01:25,827 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:01:25,834 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:01:25,837 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:02:25,580 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:02:25,587 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:02:25,590 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:03:13,108 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:03:13,114 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:03:13,117 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:03:35,204 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:03:35,211 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:03:35,215 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:06:47,352 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:06:47,407 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:06:47,467 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:07:02,735 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:07:02,742 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:07:02,746 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:07:05,939 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:07:05,948 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:07:05,955 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:08:44,297 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:08:44,304 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:08:44,307 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:09:20,255 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:09:20,261 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:09:20,265 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:11:09,480 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:11:09,488 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:11:09,496 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:11:16,311 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:11:16,318 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:11:16,321 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:11:31,318 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:11:31,325 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:11:31,328 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:11:35,360 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:11:35,391 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:11:35,415 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:11:37,099 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:11:37,164 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:11:37,192 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:11:51,953 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:11:51,959 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:11:51,963 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:11:55,592 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:11:55,599 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:11:55,602 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:12:28,057 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:12:28,063 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:12:28,066 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:12:34,828 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:12:34,835 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:12:34,839 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:12:52,178 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:12:52,184 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:12:52,187 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:12:55,579 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:12:55,585 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:12:55,587 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:13:13,950 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:13:13,957 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:13:13,960 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:13:20,923 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:13:20,930 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:13:20,934 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:13:34,430 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:13:34,438 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:13:34,442 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:13:38,807 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:13:38,814 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:13:38,818 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:14:59,846 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:14:59,852 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:14:59,855 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:16:56,098 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:16:56,105 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:16:56,108 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:16:59,475 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:16:59,484 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:16:59,489 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:17:06,111 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:17:06,122 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:17:06,127 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:17:14,475 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:17:14,483 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:17:14,487 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:17:31,395 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:17:31,402 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:17:31,406 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:17:40,106 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:17:40,113 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:17:40,116 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources
+2025-07-14 13:18:23,436 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-14 13:18:23,443 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-14 13:18:23,446 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\E-COMMERCE\commons\src\test\resources

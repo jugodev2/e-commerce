@@ -48,3 +48,1698 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.codetogether.hq.eclipse 1 0 2025-07-14 08:41:29.199
 !MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:51:40.101
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:75)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:51:40.103
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:51:40.105
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:51:40.108
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.XZedRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:67)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:91)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:42)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:51:40.110
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.XZedRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:67)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:91)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:42)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:51:40.112
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:75)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-07-14 09:51:40.141
+!MESSAGE Skipping update check for repository 'https://download.eclipse.org/mpc/drops/1.12.1/v20250508-2126/' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: https://download.eclipse.org/mpc/drops/1.12.1/v20250508-2126/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:265)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:160)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-07-14 09:51:40.141
+!MESSAGE Error while reading from repository: https://download.eclipse.org/mpc/drops/1.12.1/v20250508-2126/site.xml.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-07-14 09:51:40.141
+!MESSAGE Eclipse Marketplace Client 1.12.1
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-07-14 09:51:40.142
+!MESSAGE Skipping update check for repository 'https://devstyle.codetogether.io' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: https://devstyle.codetogether.io/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:265)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:160)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-07-14 09:51:40.142
+!MESSAGE Error while reading from repository: https://devstyle.codetogether.io/site.xml.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-07-14 09:51:40.142
+!MESSAGE Darkest Dark Theme with DevStyle 2025.1.0
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2025-07-14 09:51:40.756
+!MESSAGE Unable to load image https://marketplace.eclipse.org/sites/default/files/styles/badge_logo/public/Nightly%201X.png?itok=v2s1eNmA
+!STACK 0
+org.eclipse.swt.SWTException: Unsupported or unrecognized format
+	at org.eclipse.swt.SWT.error(SWT.java:4945)
+	at org.eclipse.swt.SWT.error(SWT.java:4860)
+	at org.eclipse.swt.SWT.error(SWT.java:4831)
+	at org.eclipse.swt.internal.image.FileFormat.lambda$11(FileFormat.java:132)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.eclipse.swt.internal.image.FileFormat.load(FileFormat.java:131)
+	at org.eclipse.swt.internal.NativeImageLoader.load(NativeImageLoader.java:26)
+	at org.eclipse.jface.resource.URLImageDescriptor.loadImageFromStream(URLImageDescriptor.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:137)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:109)
+	at org.eclipse.jface.resource.URLImageDescriptor.lambda$2(URLImageDescriptor.java:74)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:609)
+	at org.eclipse.jface.resource.URLImageDescriptor._createImage(URLImageDescriptor.java:310)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:256)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:271)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:56)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.LazyResourceManager.create(LazyResourceManager.java:95)
+	at org.eclipse.jface.resource.LocalResourceManager.allocate(LocalResourceManager.java:71)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.ResourceManager.createImage(ResourceManager.java:172)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDiscoveryResources.safeCreateImage(MarketplaceDiscoveryResources.java:177)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDiscoveryResources.setImage(MarketplaceDiscoveryResources.java:123)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.provideIconImage(AbstractMarketplaceDiscoveryItem.java:497)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createIconControl(AbstractMarketplaceDiscoveryItem.java:425)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createContent(AbstractMarketplaceDiscoveryItem.java:239)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createContent(AbstractMarketplaceDiscoveryItem.java:203)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.<init>(AbstractMarketplaceDiscoveryItem.java:168)
+	at org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.<init>(DiscoveryItem.java:86)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.createDiscoveryItem(MarketplaceViewer.java:462)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(MarketplaceViewer.java:412)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer$2.doCreateItem(MarketplaceViewer.java:910)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.createNewItem(ControlListViewer.java:241)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.refreshAll(ControlListViewer.java:483)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.inputChanged(ControlListViewer.java:355)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:279)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1635)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.catalogUpdated(CatalogViewer.java:248)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.access$3(MarketplaceViewer.java:1)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$1(MarketplaceViewer.java:354)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.runUpdate(MarketplaceViewer.java:712)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.catalogUpdated(MarketplaceViewer.java:353)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.updateCatalog(CatalogViewer.java:588)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.updateCatalog(MarketplaceViewer.java:989)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.safeUpdateCatalog(MarketplacePage.java:798)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.lambda$4(MarketplacePage.java:786)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:146)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:444)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:475)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:497)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:03.163
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:75)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:03.166
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:03.167
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:03.168
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.XZedRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:67)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:91)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:42)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:03.168
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.XZedRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:67)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:91)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:42)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:03.172
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:75)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-07-14 09:52:03.175
+!MESSAGE Skipping update check for repository 'https://devstyle.codetogether.io' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: https://devstyle.codetogether.io/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:265)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:160)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-07-14 09:52:03.175
+!MESSAGE Error while reading from repository: https://devstyle.codetogether.io/site.xml.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-07-14 09:52:03.175
+!MESSAGE Darkest Dark Theme with DevStyle 2025.1.0
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-07-14 09:52:03.185
+!MESSAGE Skipping update check for repository 'https://cdn.spring.io/spring-tools/release/TOOLS/sts4/update/e4.36/' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: https://cdn.spring.io/spring-tools/release/TOOLS/sts4/update/e4.36/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:265)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:160)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-07-14 09:52:03.185
+!MESSAGE Error while reading from repository: https://cdn.spring.io/spring-tools/release/TOOLS/sts4/update/e4.36/site.xml.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-07-14 09:52:03.185
+!MESSAGE Spring Tools (aka Spring Tool Suite) 4.31.0.RELEASE
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:10.985
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:10.990
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.XZedRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:67)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:91)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:42)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:10.995
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:75)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:10.998
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:75)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:11.009
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:11.010
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.XZedRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:67)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:91)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:42)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-07-14 09:52:11.015
+!MESSAGE Skipping update check for repository 'https://download.eclipse.org/mpc/drops/1.12.1/v20250508-2126/' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: https://download.eclipse.org/mpc/drops/1.12.1/v20250508-2126/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:265)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:160)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-07-14 09:52:11.015
+!MESSAGE Error while reading from repository: https://download.eclipse.org/mpc/drops/1.12.1/v20250508-2126/site.xml.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-07-14 09:52:11.015
+!MESSAGE Eclipse Marketplace Client 1.12.1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:11.019
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-07-14 09:52:11.020
+!MESSAGE Skipping update check for repository 'https://devstyle.codetogether.io' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: https://devstyle.codetogether.io/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:265)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:160)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-07-14 09:52:11.020
+!MESSAGE Error while reading from repository: https://devstyle.codetogether.io/site.xml.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-07-14 09:52:11.020
+!MESSAGE Darkest Dark Theme with DevStyle 2025.1.0
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:11.021
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.XZedRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:67)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:91)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:42)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:11.023
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:75)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-07-14 09:52:11.035
+!MESSAGE Skipping update check for repository 'https://cdn.spring.io/spring-tools/release/TOOLS/sts4/update/e4.36/' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: https://cdn.spring.io/spring-tools/release/TOOLS/sts4/update/e4.36/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:265)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:160)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-07-14 09:52:11.035
+!MESSAGE Error while reading from repository: https://cdn.spring.io/spring-tools/release/TOOLS/sts4/update/e4.36/site.xml.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-07-14 09:52:11.035
+!MESSAGE Spring Tools (aka Spring Tool Suite) 4.31.0.RELEASE
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:17.175
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:17.180
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.XZedRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:67)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:91)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:42)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2025-07-14 09:52:17.188
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.IllegalStateException: SSLContext is not initialized
+	at java.base/sun.security.ssl.SSLContextImpl.engineGetSocketFactory(SSLContextImpl.java:180)
+	at java.base/javax.net.ssl.SSLContextSpi.getDefaultSocket(SSLContextSpi.java:167)
+	at java.base/javax.net.ssl.SSLContextSpi.engineGetDefaultSSLParameters(SSLContextSpi.java:193)
+	at java.base/javax.net.ssl.SSLContext.getDefaultSSLParameters(SSLContext.java:465)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.getDefaultParams(HttpClientImpl.java:638)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.<init>(HttpClientImpl.java:495)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.create(HttpClientImpl.java:434)
+	at java.net.http/jdk.internal.net.http.HttpClientBuilderImpl.build(HttpClientBuilderImpl.java:143)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.buildHttpClient(Activator.java:344)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.registerHttpClient(Activator.java:325)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclientjava.Activator.getBrowseHttpClient(Activator.java:298)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:72)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:281)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:287)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:238)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:75)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-07-14 09:52:17.206
+!MESSAGE Skipping update check for repository 'https://download.eclipse.org/egit/updates' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Error while reading from repository: https://download.eclipse.org/egit/updates/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:265)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:160)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:94)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:849)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:739)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:133)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:127)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$10(MarketplaceCatalog.java:330)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-07-14 09:52:17.206
+!MESSAGE Error while reading from repository: https://download.eclipse.org/egit/updates/site.xml.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-07-14 09:52:17.206
+!MESSAGE EGit - Git Integration for Eclipse 6.7.0
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-14 09:56:58.620
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2025-07-14 10:05:05.091
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-14 10:05:05.091
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:38:17.465
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.3.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.3.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:38:17.465
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.3.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:38:17.465
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:38:19.474
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter:4.3.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.3.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:38:19.474
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.3.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:38:19.474
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:38:28.930
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.3.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.3.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:38:28.931
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.3.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:38:28.931
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.3.0
+
+!ENTRY org.eclipse.ui 4 0 2025-07-14 10:39:19.461
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.internal.text.html.BrowserInformationControlInput.getHtml()" because "this.fInput" is null
+	at org.eclipse.jface.internal.text.html.BrowserInformationControl.computeSizeHint(BrowserInformationControl.java:432)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.updateBrowserSize(FocusableBrowserInformationControl.java:101)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$1(FocusableBrowserInformationControl.java:105)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4234)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3347)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3722)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:40:18.950
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.3.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.3.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:40:18.950
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.3.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:40:18.950
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:40:19.260
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.3.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.3.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:40:19.260
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.3.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:40:19.260
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.3.0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-07-14 10:43:48.822
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): eureka-server does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2549)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-07-14 10:43:48.822
+!MESSAGE eureka-server does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-07-14 10:43:48.824
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): eureka-server does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2549)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-07-14 10:43:48.824
+!MESSAGE eureka-server does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-07-14 10:43:48.825
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): eureka-server does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2549)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-07-14 10:43:48.825
+!MESSAGE eureka-server does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:44:37.836
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.2.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.2.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:44:37.836
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.2.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:44:37.836
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:4.2.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:44:38.011
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter:4.2.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:44:38.011
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:44:38.011
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:44:41.488
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.2.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.2.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:44:41.489
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.2.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:44:41.489
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:4.2.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:45:10.817
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.2.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.2.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:45:10.817
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.2.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:45:10.817
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.2.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-07-14 10:45:11.145
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.2.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.2.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.2.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-07-14 10:45:11.145
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.2.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-07-14 10:45:11.146
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.2.2
+
+!ENTRY org.eclipse.ui 4 0 2025-07-14 12:51:34.951
+!MESSAGE Cannot create or restore 'eureka-server' because it already exists.
+!STACK 0
+org.eclipse.core.commands.ExecutionException: Cannot create or restore 'eureka-server' because it already exists.
+	at org.eclipse.ltk.internal.core.refactoring.UndoableOperation2ChangeAdapter.undo(UndoableOperation2ChangeAdapter.java:215)
+	at org.eclipse.core.commands.operations.TriggeredOperations.undo(TriggeredOperations.java:214)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.doUndo(DefaultOperationHistory.java:399)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.undo(DefaultOperationHistory.java:1141)
+	at org.eclipse.ui.operations.UndoActionHandler.runCommand(UndoActionHandler.java:85)
+	at org.eclipse.ui.operations.OperationHistoryActionHandler.lambda$0(OperationHistoryActionHandler.java:294)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:433)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.operations.TimeTriggeredProgressMonitorDialog.access$1(TimeTriggeredProgressMonitorDialog.java:1)
+	at org.eclipse.ui.internal.operations.TimeTriggeredProgressMonitorDialog.lambda$0(TimeTriggeredProgressMonitorDialog.java:154)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.operations.TimeTriggeredProgressMonitorDialog.run(TimeTriggeredProgressMonitorDialog.java:166)
+	at org.eclipse.ui.operations.OperationHistoryActionHandler.run(OperationHistoryActionHandler.java:333)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:124)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:320)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:581)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:662)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:451)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:104)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1340)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1265)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1261)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1748)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4902)
+	at org.eclipse.swt.widgets.Tree.WM_CHAR(Tree.java:6155)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4779)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6150)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5106)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3722)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: org.eclipse.core.runtime.CoreException: Cannot create or restore 'eureka-server' because it already exists.
+	at org.eclipse.ltk.internal.core.refactoring.resource.UndoDeleteResourceChange.perform(UndoDeleteResourceChange.java:75)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.internal.core.refactoring.UndoableOperation2ChangeAdapter.lambda$0(UndoableOperation2ChangeAdapter.java:332)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.core.refactoring.UndoableOperation2ChangeAdapter.executeChange(UndoableOperation2ChangeAdapter.java:354)
+	at org.eclipse.ltk.internal.core.refactoring.UndoableOperation2ChangeAdapter.undo(UndoableOperation2ChangeAdapter.java:199)
+	... 65 more
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-14 12:59:17.717
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:250)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-14 13:00:49.660
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-14 13:01:14.569
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-14 13:06:51.526
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-14 13:11:38.418
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
