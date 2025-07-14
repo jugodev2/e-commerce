@@ -1,0 +1,5 @@
+package com.querubines.commons.models.entities;
+
+public class ProductosPedidos {
+
+}

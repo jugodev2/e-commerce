@@ -1,0 +1,5 @@
+package com.querubines.commons.models;
+
+public class Pedido {
+
+}
